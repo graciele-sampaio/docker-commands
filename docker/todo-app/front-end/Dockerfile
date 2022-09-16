@@ -5,4 +5,3 @@ COPY . .
 RUN npm install
 ADD node_modules.tar.gz ./
 CMD ["npm", "start"]
-
